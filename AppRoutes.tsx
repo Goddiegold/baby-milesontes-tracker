@@ -10,11 +10,13 @@ import Ionicons from "react-native-vector-icons/Ionicons"
 import AddMilestone from "@/screens/AddMilestone";
 import Profile from "@/screens/Profile";
 import EditMilestone from "@/screens/EditMilestone";
+import OnboardingScreen from "@/screens/Onboarding";
 
 const PreAuth = () => {
     const Stack = createStackNavigator()
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="Onboarding" component={OnboardingScreen}/>
             <Stack.Screen name="Login" component={Login} />
             <Stack.Screen name="Register" component={Register} />
         </Stack.Navigator>

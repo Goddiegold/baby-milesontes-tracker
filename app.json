@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "motherapp",
-    "slug": "motherapp",
+    "name": "BabyMilestonesTracker",
+    "slug": "babyMilestonesTracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

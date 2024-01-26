@@ -1,4 +1,3 @@
-# baby-milesontes-tracker
 # Baby Milestones Tracker
 
 ## Overview
